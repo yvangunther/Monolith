@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1083378141, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
+  m_Name: Game manager
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Camera","summary":null,"pan":{"x":46.0,"y":53.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-18.0,"y":-60.0},"guid":"b8136958-ad18-4681-aa17-ff622bb95824","$version":"A","$type":"Bolt.Update","$id":"13"},{"chainable":false,"member":{"name":"lockState","parameterTypes":null,"targetType":"UnityEngine.Cursor","targetTypeName":"UnityEngine.Cursor","$version":"A"},"defaultValues":{"input":{"$content":"Confined","$type":"UnityEngine.CursorLockMode"}},"position":{"x":171.0,"y":-43.0},"guid":"6e19d1ba-97b4-48b5-9245-fe123b1123aa","$version":"A","$type":"Bolt.SetMember","$id":"15"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"987e1961-611d-401d-82fc-c7720f539721","$type":"Bolt.ControlConnection"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-15.0},"width":170.0,"guid":"4e64684d-5953-408e-8d8e-2d5e3a9891ca","$version":"A","$type":"Bolt.FlowState"}],"$version":"A"}}'
+    _objectReferences: []
