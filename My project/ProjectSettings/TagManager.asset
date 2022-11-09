@@ -8,6 +8,7 @@ TagManager:
   - Batiment
   - Bullet
   - Ennemie
+  - Minerais
   layers:
   - Default
   - TransparentFX
